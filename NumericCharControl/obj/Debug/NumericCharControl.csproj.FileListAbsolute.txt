@@ -1,0 +1,6 @@
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas VI\P6_3_1204055\NumericCharControl\bin\Debug\NumericCharControl.dll
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas VI\P6_3_1204055\NumericCharControl\bin\Debug\NumericCharControl.pdb
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas VI\P6_3_1204055\NumericCharControl\obj\Debug\NumericCharControl.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas VI\P6_3_1204055\NumericCharControl\obj\Debug\NumericCharControl.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas VI\P6_3_1204055\NumericCharControl\obj\Debug\NumericCharControl.dll
+C:\Users\HP\Documents\Ilman\Projects\Pemrograman II\Tugas VI\P6_3_1204055\NumericCharControl\obj\Debug\NumericCharControl.pdb
