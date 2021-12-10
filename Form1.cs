@@ -19,22 +19,22 @@ namespace P6_3_1204055
 
 
             //string myConnectionString = "Data Source=LAPTOP-4Q4UGOSK\P6_1204055;Initial Catalog=P6_1204055;Integrated Security=True";
-            SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-4Q4UGOSK\P6_1204055;Initial Catalog=P6_1204055;Integrated Security=True");
-            conn.Open();
-            SqlCommand sc = new SqlCommand("SELECT * FROM msprodi", conn);
+            SqlConnection connectDB = new SqlConnection(@"Data Source=LAPTOP-4Q4UGOSK\P6_1204055;Initial Catalog=P6_1204055;Integrated Security=True");
+            connectDB.Open();
+            SqlCommand sc = new SqlCommand("SELECT * FROM msprodi", connectDB);
             SqlDataReader reader;
 
             reader = sc.ExecuteReader();
-            DataTable dt = new DataTable();
-            dt.Columns.Add("id_prodi", typeof(string));
-            dt.Columns.Add("singkatan", typeof(string));
-            dt.Load(reader);
+            DataTable tabel = new DataTable();
+            tabel.Columns.Add("id_prodi", typeof(string));
+            tabel.Columns.Add("singkatan", typeof(string));
+            tabel.Load(reader);
 
             cbProstud.ValueMember = "id_prodi";
             cbProstud.DisplayMember = "singkatan";
-            cbProstud.DataSource = dt;
+            cbProstud.DataSource = tabel;
 
-            conn.Close();
+            connectDB.Close();
         }
 
         private void insertDB(string conn)
